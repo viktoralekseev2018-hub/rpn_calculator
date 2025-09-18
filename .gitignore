@@ -45,3 +45,5 @@ Thumbs.db
 *.dylib
 *.dll
 *.exe
+html/
+latex/
