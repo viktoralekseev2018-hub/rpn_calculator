@@ -61,7 +61,7 @@ double evaluate_rpn(const std::string& expression) {
             double result;
 
             if (token == "+") {
-                result = a + b;
+                result = a - b;
             } else if (token == "-") {
                 result = a - b;
             } else if (token == "*") {
